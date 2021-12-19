@@ -1,0 +1,3 @@
+# ideia-android
+
+## PROJETO DE ESTUDOS EM ANDROID NATIVO COM JAVA
