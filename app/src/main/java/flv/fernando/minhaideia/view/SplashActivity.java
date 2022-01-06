@@ -38,6 +38,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 Log.d(AppUtil.TAG, "proximaTela: Trocando de tela");
                 cliente = new Cliente(
+                        0,
                         "Fernando Vasques",
                         "53 981362893",
                         "fflqvn@gmail.com",

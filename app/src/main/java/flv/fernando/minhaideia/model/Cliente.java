@@ -5,13 +5,15 @@ import java.util.ArrayList;
 import flv.fernando.minhaideia.core.ICliente;
 
 public class Cliente implements ICliente {
+    private int id;
     private String nome;
     private String email;
     private String telefone;
     private int idade;
     private int sexo;
 
-    public Cliente(String nome, String email, String telefone, int idade, int sexo) {
+   public Cliente(int id, String nome, String email, String telefone, int idade, int sexo) {
+        this.id = id;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
@@ -57,6 +59,18 @@ public class Cliente implements ICliente {
 
     public void setSexo(int sexo) {
         this.sexo = sexo;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getSexo() {
+        return sexo;
     }
 
     @Override
